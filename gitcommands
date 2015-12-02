@@ -1,0 +1,9 @@
+git -u //git update 
+git diff HEAD // shows last commit to git 
+git diff HEAD~1 // shows last commit to git prior to most recent and so on
+git add -A // adds all files including untracked (careful not to add files you don't intend)
+git commit -m "Something for the commit message" 
+git status //shows the current status of git commits
+git checkout //FILENAME will remove unwanted files / revert changes
+git reset --hard //will move working copy back to HEAD / removed all change)
+git reset --soft HEAD~1 //make corrections redo work 
